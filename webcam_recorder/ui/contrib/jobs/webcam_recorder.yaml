@@ -1,0 +1,14 @@
+---
+display_name: Webcam Recorder
+job_name: webcam_recorder
+display: true
+source: webcam_recorder
+description: Continuous video recording with HLS streaming support for real-time monitoring
+published_settings:
+  - key: is_recording
+    unit: 
+    label: Recording Status
+    description: Enable or disable continuous webcam recording
+    type: boolean
+    default: false
+    display: true
