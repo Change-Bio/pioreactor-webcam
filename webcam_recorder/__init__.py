@@ -1,1 +1,1 @@
-from webcam_recorder.PLUGIN import click_webcam_recorder
+from webcam_recorder.webcam_recorder import click_webcam_recorder
