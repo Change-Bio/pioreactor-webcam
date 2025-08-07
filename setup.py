@@ -2,19 +2,19 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="<DISTRIBUTION-NAME (with dashes)>",
-    version="<VERSION>",
+    name="pioreactor-webcam-recorder",
+    version="1.0.0",
     license_files = ('LICENSE.txt',),
-    description="<DESCRIPTION OF PLUGIN>",
+    description="Webcam recorder plugin for continuous video recording with HLS streaming support",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author_email="<EMAIL>",
-    author="<NAME>",
-    url="<A HOMEPAGE>",
+    author_email="noah@changebio.uk",
+    author="Noah",
+    url="https://github.com/pioreactor/pioreactor-webcam",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[], # PROVIDE OTHER PYTHON REQUIREMENTS, ex: "pioreactor>=23.6.0", "numpy>=1.0"
+    install_requires=["pioreactor>=23.6.0"],
     entry_points={
-        "pioreactor.plugins": "<PLUGIN_NAME> = <PLUGIN_NAME>"
+        "pioreactor.plugins": "webcam_recorder = webcam_recorder"
     },
 )
