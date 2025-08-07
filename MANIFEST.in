@@ -1,6 +1,4 @@
 recursive-include webcam_recorder/ui/ *.yaml
 include webcam_recorder/additional_config.ini
-include webcam_recorder/additional_sql.sql
 include webcam_recorder/post_install.sh
 include webcam_recorder/pre_uninstall.sh
-include webcam_recorder/exportable_datasets/*.yaml

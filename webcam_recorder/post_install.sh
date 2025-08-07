@@ -6,4 +6,4 @@ set -e
 
 export LC_ALL=C
 
-sudo systemctl enable pioreactor_startup_run@logs2slack.service
+sudo systemctl enable pioreactor_startup_run@webcam_recorder.service
